@@ -1,3 +1,4 @@
+/*
 let js = "amazing";
 // if (js === "amazing") alert("js is fun");
 
@@ -21,4 +22,21 @@ console.log(firstName);
 
 console.log(firstName);
 
+console.log(firstName);
+*/
+
+let isFun = true;
+
+console.log(true);
+console.log(isFun);
+
+console.log(typeof true);
+console.log(typeof isFun);
+console.log(typeof 44);
+console.log(typeof "Ajay");
+
+// LEARNING ABOUT DYNAMIC TYPING MEANS WE WON'T TELL THE DATA TYPES THIS IS STRING, NUMBER, BOOLEAN IT WILL FIGURE IT OUT ITSELF
+let firstName = "Kumar B S";
+console.log(firstName);
+firstName = false;
 console.log(firstName);
