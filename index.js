@@ -40,3 +40,14 @@ let firstName = "Kumar B S";
 console.log(firstName);
 firstName = false;
 console.log(firstName);
+
+// UNDEFINED AND NULL AND TYPE OF
+
+let email;
+console.log(email); //undefined means the variable don't hold any value
+console.log(typeof email);
+
+let newEmail;
+console.log(newEmail);
+console.log(typeof newEmail);
+console.log(typeof null);
