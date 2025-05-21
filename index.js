@@ -55,6 +55,7 @@ console.log(typeof null);
 
 // let/const/var  in JS
 
+/*
 const age = 45;
 console.log(age);
 
@@ -66,3 +67,22 @@ const firstName = "AJAY"; // THIS WILL DISPLAY THE VALUE WHICH IS INSIDE THE VAR
 var email = "gmail.com";
 
 console.log(email);
+
+
+*/
+
+//BASIC OPERATORS IN JS
+
+const order = 1;
+console.log(order + 4);
+
+console.log(4 * 3);
+console.log(3 ** 4);
+// 3*3*3*3
+
+const now = 2025;
+const birthYear = 2000;
+
+console.log(now - birthYear);
+
+console.log(now - 2001);
