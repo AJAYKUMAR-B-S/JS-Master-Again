@@ -101,3 +101,11 @@ x++;
 x--;
 x--;
 console.log(x);
+
+// COMPARISON OPERATORS
+
+const age = 23;
+const birthYear = 2000;
+const now = 2025;
+
+console.log(now - birthYear >= age);
