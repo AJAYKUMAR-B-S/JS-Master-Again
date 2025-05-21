@@ -91,6 +91,7 @@ console.log(now - 2001);
 
 // ASSIGNMENT OPERATORS
 
+/*
 let x = 5 + 1;
 
 console.log(x);
@@ -109,3 +110,29 @@ const birthYear = 2000;
 const now = 2025;
 
 console.log(now - birthYear >= age);
+
+*/
+
+//STING AND TEMPLATE STRINGS
+
+console.log("This is simple string");
+
+const firstName = "AJAY";
+const job = "Teacher";
+const birthYear = 2001;
+const currentYear = 2025;
+
+const personFullDetail =
+  "I am " +
+  firstName +
+  " I am a " +
+  job +
+  " and my age is " +
+  (currentYear - birthYear);
+console.log(personFullDetail);
+
+const personFullDetails = `I am ${firstName} currently i am ${job} and my age is ${
+  currentYear - birthYear
+}`;
+
+console.log(personFullDetails);
