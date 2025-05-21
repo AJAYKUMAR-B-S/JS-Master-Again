@@ -138,7 +138,7 @@ const personFullDetails = `I am ${firstName} currently i am ${job} and my age is
 
 console.log(personFullDetails);
 */
-
+/*
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -150,8 +150,27 @@ console.log(BMIMark, BMIJohn);
 
 /* Write your code below. Good luck! 🙂 */
 
+/*
 if (BMIMark > BMIJohn) {
   console.log(`Mark's BMI (${BMIMark}) is higher than john's (${BMIJohn})`);
 } else {
   console.log(`john's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})`);
 }
+  /*
+/*
+*/
+
+//type conversion
+
+let userNumberInput = "897546214";
+
+console.log(userNumberInput);
+const countryCode = "+91";
+console.log(`${Number(countryCode)} ${userNumberInput}`);
+
+console.log(Number("Ajay"));
+
+//type coercion
+
+const age = 90;
+console.log("ajay " + age + " years old ");
