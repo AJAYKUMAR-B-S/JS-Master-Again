@@ -23,7 +23,7 @@ console.log(firstName);
 console.log(firstName);
 
 console.log(firstName);
-*/
+
 
 let isFun = true;
 
@@ -51,3 +51,18 @@ let newEmail;
 console.log(newEmail);
 console.log(typeof newEmail);
 console.log(typeof null);
+*/
+
+// let/const/var  in JS
+
+const age = 45;
+console.log(age);
+
+// age = 56; WE WILL GET TYPEERROR IF WE REASSIGN VALUE FOR const
+
+const firstName = "AJAY"; // THIS WILL DISPLAY THE VALUE WHICH IS INSIDE THE VARIABLE
+// const lastName;  we will get syntax error
+
+var email = "gmail.com";
+
+console.log(email);
