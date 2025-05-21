@@ -71,6 +71,7 @@ console.log(email);
 
 */
 
+/*
 //BASIC OPERATORS IN JS
 
 const order = 1;
@@ -86,3 +87,17 @@ const birthYear = 2000;
 console.log(now - birthYear);
 
 console.log(now - 2001);
+*/
+
+// ASSIGNMENT OPERATORS
+
+let x = 5 + 1;
+
+console.log(x);
+
+x += 8;
+x *= 2;
+x++;
+x--;
+x--;
+console.log(x);
