@@ -183,8 +183,37 @@ console.log("ajay " + age + " years old ");
 //->NAN(Not a Number)
 //->0
 
+/*
 console.log(Boolean(0));
 console.log(Boolean(""));
 console.log(Boolean(undefined));
 console.log(Boolean(NaN));
 console.log(Boolean(null));
+*/
+
+//Equality operator "==" & "==="
+
+const age = 25;
+if (age == 25) {
+  console.log("You should get Marry to someone Who has Loose mindset");
+}
+
+if (age === 25) {
+  console.log("You should get Marry to someone Who has strict mindset");
+}
+
+const favoriteNumber = Number(prompt("Tell Me What Is Your Favorite Number"));
+console.log(favoriteNumber);
+console.log(typeof favoriteNumber);
+if (favoriteNumber === 25) {
+  console.log("Good choice ! 25 is Good Number");
+} else if (favoriteNumber === 34) {
+  console.log("34 is also good choice");
+} else if (favoriteNumber === 50) {
+  console.log("Super number 50 is");
+} else {
+  console.log("Why not 34 25 50");
+}
+
+if (favoriteNumber !== 55)
+  console.log("In Future You Should Choose 55 because It's a grate Number");
