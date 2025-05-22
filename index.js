@@ -161,7 +161,7 @@ if (BMIMark > BMIJohn) {
 */
 
 //type conversion
-
+/*
 let userNumberInput = "897546214";
 
 console.log(userNumberInput);
@@ -174,3 +174,17 @@ console.log(Number("Ajay"));
 
 const age = 90;
 console.log("ajay " + age + " years old ");
+*/
+
+//Truthy and falsy values
+//There are Five Falsy values is there in jS remain everything is Truthy value those are
+//->undefined
+//Empty string " "
+//->NAN(Not a Number)
+//->0
+
+console.log(Boolean(0));
+console.log(Boolean(""));
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean(null));
