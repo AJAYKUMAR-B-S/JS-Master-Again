@@ -193,6 +193,7 @@ console.log(Boolean(null));
 
 //Equality operator "==" & "==="
 
+/*
 const age = 25;
 if (age == 25) {
   console.log("You should get Marry to someone Who has Loose mindset");
@@ -217,3 +218,24 @@ if (favoriteNumber === 25) {
 
 if (favoriteNumber !== 55)
   console.log("In Future You Should Choose 55 because It's a grate Number");
+*/
+
+//logical operator
+
+const customerName = "AJAY";
+const customerAge = 20;
+const customerCreditScore = 750;
+const isCustomerEarning = false;
+const isCustomerHavePANCard = false;
+
+if (customerAge > 20 && customerCreditScore > 740) {
+  console.log(`${customerName} you are Eligible for Credit Card 🥳`);
+} else if (isCustomerHavePANCard || isCustomerEarning) {
+  console.log(
+    "Please update your credit Score and age to apply to credit card"
+  );
+} else {
+  console.log(
+    `Sorry ${customerName} we can't process further because we don't have enough information!, please update your details`
+  );
+}
