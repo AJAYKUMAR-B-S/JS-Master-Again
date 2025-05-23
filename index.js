@@ -240,7 +240,7 @@ if (customerAge > 20 && customerCreditScore > 740) {
   );
 }
 */
-
+/*
 //SWITCH STATEMENT
 
 const day = "Friday";
@@ -281,3 +281,17 @@ if (day === "Monday") {
 } else {
   console.log("Invalid Day");
 }
+*/
+
+//EXPRESSIONS AND STATEMENTS
+
+//this is the statement
+
+if (25 > 80) {
+  console.log("25 is lesser than 80");
+}
+
+const userName = "Ajay";
+const birthYear = 1990;
+const currentYear = 2025;
+console.log(`${userName} is ${currentYear - birthYear} years old`);
