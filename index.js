@@ -221,7 +221,7 @@ if (favoriteNumber !== 55)
 */
 
 //logical operator
-
+/*
 const customerName = "AJAY";
 const customerAge = 20;
 const customerCreditScore = 750;
@@ -238,4 +238,46 @@ if (customerAge > 20 && customerCreditScore > 740) {
   console.log(
     `Sorry ${customerName} we can't process further because we don't have enough information!, please update your details`
   );
+}
+*/
+
+//SWITCH STATEMENT
+
+const day = "Friday";
+
+switch (day) {
+  case "Monday":
+    console.log("Learn JS ");
+    break;
+  case "Tuesday":
+    console.log("Write JS Notes");
+    break;
+  case "Wednesday":
+    console.log("Do Logical Exercises");
+    break;
+  case "Thursday":
+    console.log("Go to Temple");
+    console.log("Again practice JS Logical Problems");
+  case "Friday":
+    console.log("Give Mock test To Companies");
+    break;
+  case "Saturday":
+    console.log("Take Rest");
+  default:
+    console.log("Invalid Day");
+}
+
+if (day === "Monday") {
+  console.log("Learn JS ");
+} else if (day === "Tuesday") {
+  console.log("Write JS Notes");
+} else if (day === "Wednesday") {
+  console.log("Do Logical Exercises");
+} else if (day === "Thursday" || day === "Friday") {
+  console.log("Go to Temple");
+  console.log("Again practice JS Logical Problems");
+} else if ((day = "Saturday")) {
+  console.log("Take Rest");
+} else {
+  console.log("Invalid Day");
 }
