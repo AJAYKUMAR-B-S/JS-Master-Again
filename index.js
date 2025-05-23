@@ -295,3 +295,8 @@ const userName = "Ajay";
 const birthYear = 1990;
 const currentYear = 2025;
 console.log(`${userName} is ${currentYear - birthYear} years old`);
+
+let bill = 275;
+const finalAmount = bill > 50 && bill < 300 ? bill / 15 : bill / 20;
+
+console.log(finalAmount + bill);
