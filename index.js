@@ -357,8 +357,23 @@ const voterEligible = function (userName, birthYear, hasAdharCard) {
     findAge > 18 && hasAdharCard === true
       ? `Is Eligible For Voter ID `
       : `Is Not Eligible For Voter ID Because He don't have AdharCard 
-Please First Generate Adhar Card `
+Please First Create Adhar Card`
   } `;
 };
 const findUserWillGetID = voterEligible("Ajay", 2007, true);
 console.log(findUserWillGetID);
+
+//ARROW FUNCTIONS
+
+const todaysTarget = (numOfCars) => numOfCars - 30;
+console.log(todaysTarget(202));
+
+const EligibleForExam = (userAge, userBirthYear) => {
+  const finalAge = 2025 - userBirthYear;
+  return `${userAge} ${
+    finalAge > 18
+      ? "🥳 Is Eligible For This Exam "
+      : "Sorry 😔, You Are Too Young For This Exam"
+  }`;
+};
+console.log(EligibleForExam("Ajay", 2006));
