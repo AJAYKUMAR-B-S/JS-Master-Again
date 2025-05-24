@@ -1,21 +1,18 @@
 "use strict";
 
-/*
 let hasDriverLicense = false;
 const hasDriverHasGoodVision = true;
 
 if (hasDriverHasGoodVision) {
-  hasDriversLicense = true;
+  hasDriverLicense = true;
 }
 
-console.log(`Driver ${hasDriverLicense ? "will" : "Won't"} get the license`);
-*/
-/*
+// console.log(`Driver ${hasDriverLicense ? "will" : "Won't"} get the license`);
 
 let js = "amazing";
 // if (js === "amazing") alert("js is fun");
 
-console.log(44 + 30 - 9);
+// console.log(44 + 30 - 9);
 
 // Learning About Values And variables
 // FOR VARIABLES WE  CAN'T USE RESERVE WORDS AND SHOULD NOT START WITH NUMBER
@@ -29,42 +26,34 @@ let job2 = "teacher";
 
 let myFirstJob = "Programmer";
 let myCurrentJob = "Teacher";
-let firstName = "Ajay";
-
-console.log(firstName);
-
-console.log(firstName);
-
-console.log(firstName);
-
+let firstNameeee = "Ajay";
 
 let isFun = true;
 
-console.log(true);
-console.log(isFun);
+// console.log(true);
+// console.log(isFun);
 
-console.log(typeof true);
-console.log(typeof isFun);
-console.log(typeof 44);
-console.log(typeof "Ajay");
+// console.log(typeof true);
+// console.log(typeof isFun);
+// console.log(typeof 44);
+// console.log(typeof "Ajay");
 
 // LEARNING ABOUT DYNAMIC TYPING MEANS WE WON'T TELL THE DATA TYPES THIS IS STRING, NUMBER, BOOLEAN IT WILL FIGURE IT OUT ITSELF
-let firstName = "Kumar B S";
-console.log(firstName);
-firstName = false;
-console.log(firstName);
+let firstNameeeee = "Kumar B S";
+// console.log(firstNameee);
+// firstName = false;
+// console.log(firstNameee);
 
 // UNDEFINED AND NULL AND TYPE OF
 
-let email;
-console.log(email); //undefined means the variable don't hold any value
-console.log(typeof email);
+// let email;
+// console.log(email); //undefined means the variable don't hold any value
+// console.log(typeof email);
 
-let newEmail;
-console.log(newEmail);
-console.log(typeof newEmail);
-console.log(typeof null);
-*/
+// let newEmail;
+// console.log(newEmail);
+// console.log(typeof newEmail);
+// console.log(typeof null);
 
 // let/const/var  in JS
 
@@ -104,37 +93,33 @@ console.log(now - 2001);
 
 // ASSIGNMENT OPERATORS
 
-/*
 let x = 5 + 1;
 
-console.log(x);
+// console.log(x);
 
 x += 8;
 x *= 2;
 x++;
 x--;
 x--;
-console.log(x);
+// console.log(x);
 
 // COMPARISON OPERATORS
 
-const age = 23;
-const birthYear = 2000;
+const agee = 23;
+const birthYearrr = 2000;
 const now = 2025;
 
-console.log(now - birthYear >= age);
-
-*/
+// console.log(now - birthYearrr >= agee);
 
 //STING AND TEMPLATE STRINGS
 
-/*
-console.log("This is simple string");
+// console.log("This is simple string");
 
 const firstName = "AJAY";
 const job = "Teacher";
-const birthYear = 2001;
-const currentYear = 2025;
+const birthYearr = 2001;
+const currentYearr = 2025;
 
 const personFullDetail =
   "I am " +
@@ -142,16 +127,15 @@ const personFullDetail =
   " I am a " +
   job +
   " and my age is " +
-  (currentYear - birthYear);
-console.log(personFullDetail);
+  (currentYearr - birthYearr);
+// console.log(personFullDetail);
 
 const personFullDetails = `I am ${firstName} currently i am ${job} and my age is ${
-  currentYear - birthYear
+  currentYearr - birthYearr
 }`;
 
-console.log(personFullDetails);
-*/
-/*
+// console.log(personFullDetails);
+
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -159,35 +143,30 @@ const heightJohn = 1.95;
 
 const BMIMark = massMark / (heightMark * heightMark);
 const BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+// console.log(BMIMark, BMIJohn);
 
 /* Write your code below. Good luck! 🙂 */
 
-/*
-if (BMIMark > BMIJohn) {
-  console.log(`Mark's BMI (${BMIMark}) is higher than john's (${BMIJohn})`);
-} else {
-  console.log(`john's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})`);
-}
-  /*
-/*
-*/
+// if (BMIMark > BMIJohn) {
+//   console.log(`Mark's BMI (${BMIMark}) is higher than john's (${BMIJohn})`);
+// } else {
+//   console.log(`john's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})`);
+// }
 
 //type conversion
-/*
+
 let userNumberInput = "897546214";
 
-console.log(userNumberInput);
+// console.log(userNumberInput);
 const countryCode = "+91";
-console.log(`${Number(countryCode)} ${userNumberInput}`);
+// console.log(`${Number(countryCode)} ${userNumberInput}`);
 
-console.log(Number("Ajay"));
+// console.log(Number("Ajay"));
 
 //type coercion
 
 const age = 90;
-console.log("ajay " + age + " years old ");
-*/
+// console.log("ajay " + age + " years old ");
 
 //Truthy and falsy values
 //There are Five Falsy values is there in jS remain everything is Truthy value those are
@@ -231,10 +210,11 @@ if (favoriteNumber === 25) {
 
 if (favoriteNumber !== 55)
   console.log("In Future You Should Choose 55 because It's a grate Number");
+
 */
 
 //logical operator
-/*
+
 const customerName = "AJAY";
 const customerAge = 20;
 const customerCreditScore = 750;
@@ -248,15 +228,14 @@ if (customerAge > 20 && customerCreditScore > 740) {
     "Please update your credit Score and age to apply to credit card"
   );
 } else {
-  console.log(
-    `Sorry ${customerName} we can't process further because we don't have enough information!, please update your details`
-  );
+  // console.log(
+  `Sorry ${customerName} we can't process further because we don't have enough information!, please update your details`;
+  // );
 }
-*/
-/*
+
 //SWITCH STATEMENT
 
-const day = "Friday";
+const day = "Mockday";
 
 switch (day) {
   case "Monday":
@@ -289,18 +268,16 @@ if (day === "Monday") {
 } else if (day === "Thursday" || day === "Friday") {
   console.log("Go to Temple");
   console.log("Again practice JS Logical Problems");
-} else if ((day = "Saturday")) {
+} else if (day === "Saturday") {
   console.log("Take Rest");
 } else {
   console.log("Invalid Day");
 }
-*/
 
 //EXPRESSIONS AND STATEMENTS
 
 //this is the statement
 
-/*
 if (25 > 80) {
   console.log("25 is lesser than 80");
 }
@@ -308,17 +285,16 @@ if (25 > 80) {
 const userName = "Ajay";
 const birthYear = 1990;
 const currentYear = 2025;
-console.log(`${userName} is ${currentYear - birthYear} years old`);
+// console.log(`${userName} is ${currentYear - birthYear} years old`);
 
 let bill = 275;
 const finalAmount = bill > 50 && bill < 300 ? bill / 15 : bill / 20;
 
-console.log(finalAmount + bill);
-*/
+// console.log(finalAmount + bill);
 
-// function printName() {
-//   console.log("My name is Ajay");
-// }
+function printName() {
+  console.log("My name is Ajay");
+}
 
 // //THis we will call as Invoking/calling/running
 // printName();
@@ -329,19 +305,16 @@ console.log(finalAmount + bill);
 //IN FUNCTION THERE ARE 'PARAMETERS" OR "ARGUMENTS" IT WILL TAKE THE INPUTS FROM FUNCTION AND PRINT IN CONSOLE OR RETURN
 // THE MAIN USE CASE OF FUNCTION IS WE SHOULD NOT REPEAT THE CODE OR BRAKE THE DRY PRINCIPLE (DON'T REPEAT YOURSELF)
 
-/*
 function fruitProcessor(numOfApples, numOfOranges) {
-  console.log(numOfApples, numOfOranges);
+  // console.log(numOfApples, numOfOranges);
   const resultOfJuices = `Juice With ${numOfApples} Apples and ${numOfOranges} Oranges`;
   return resultOfJuices;
 }
 
 const finalResult = fruitProcessor(4, 3);
-console.log(finalResult);
+// console.log(finalResult);
 
-console.log(fruitProcessor(7, 1));
-
-*/
+// console.log(fruitProcessor(7, 1));
 
 // FUNCTION DECLARATION AND FUNCTION EXPRESSION
 
@@ -349,7 +322,7 @@ function calcAge(birthYear) {
   return 2025 - birthYear;
 }
 
-console.log(calcAge(2000));
+// console.log(calcAge(2000));
 
 const voterEligible = function (userName, birthYear, hasAdharCard) {
   const findAge = 2025 - birthYear;
@@ -361,12 +334,12 @@ Please First Create Adhar Card`
   } `;
 };
 const findUserWillGetID = voterEligible("Ajay", 2007, true);
-console.log(findUserWillGetID);
+// console.log(findUserWillGetID);
 
 //ARROW FUNCTIONS
 
 const todaysTarget = (numOfCars) => numOfCars - 30;
-console.log(todaysTarget(202));
+// console.log(todaysTarget(202));
 
 const EligibleForExam = (userAge, userBirthYear) => {
   const finalAge = 2025 - userBirthYear;
@@ -376,4 +349,4 @@ const EligibleForExam = (userAge, userBirthYear) => {
       : "Sorry 😔, You Are Too Young For This Exam"
   }`;
 };
-console.log(EligibleForExam("Ajay", 2006));
+// console.log(EligibleForExam("Ajay", 2006));
