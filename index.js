@@ -350,3 +350,19 @@ const EligibleForExam = (userAge, userBirthYear) => {
   }`;
 };
 // console.log(EligibleForExam("Ajay", 2006));
+
+//FUNCTION CALLING ANOTHER FUNCTION
+
+function giveDiscount(amount) {
+  const finalDiscount = amount > 50 && amount < 200 ? amount / 20 : amount / 30;
+  return finalAmount;
+}
+
+const hotelGrand = (userName, amountForDiscount) => {
+  const discountAmount = giveDiscount(amountForDiscount);
+  return `Congratulation ${userName} You Got ${discountAmount}% Discount and The Final Bill Will ${
+    amountForDiscount - discountAmount
+  }`;
+};
+
+console.log(hotelGrand("John", 150));
