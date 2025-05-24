@@ -1,3 +1,13 @@
+"use strict";
+
+let hasDriverLicense = false;
+const hasDriverHasGoodVision = true;
+
+if (hasDriverHasGoodVision) {
+  hasDriversLicense = true;
+}
+
+console.log(`Driver ${hasDriverLicense ? "will" : "Won't"} get the license`);
 /*
 let js = "amazing";
 // if (js === "amazing") alert("js is fun");
@@ -287,6 +297,7 @@ if (day === "Monday") {
 
 //this is the statement
 
+/*
 if (25 > 80) {
   console.log("25 is lesser than 80");
 }
@@ -300,3 +311,4 @@ let bill = 275;
 const finalAmount = bill > 50 && bill < 300 ? bill / 15 : bill / 20;
 
 console.log(finalAmount + bill);
+*/
