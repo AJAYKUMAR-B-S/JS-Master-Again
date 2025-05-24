@@ -316,11 +316,26 @@ const finalAmount = bill > 50 && bill < 300 ? bill / 15 : bill / 20;
 console.log(finalAmount + bill);
 */
 
-function printName() {
-  console.log("My name is Ajay");
+// function printName() {
+//   console.log("My name is Ajay");
+// }
+
+// //THis we will call as Invoking/calling/running
+// printName();
+// printName();
+// printName();
+
+//FUNCTIONS ARE BUILDING BLOCKS OF JS IT'S USED TO STORE AND REUSE THE CODE AS MANY TIME WE WANT.
+//IN FUNCTION THERE ARE 'PARAMETERS" OR "ARGUMENTS" IT WILL TAKE THE INPUTS FROM FUNCTION AND PRINT IN CONSOLE OR RETURN
+// THE MAIN USE CASE OF FUNCTION IS WE SHOULD NOT REPEAT THE CODE OR BRAKE THE DRY PRINCIPLE (DON'T REPEAT YOURSELF)
+
+function fruitProcessor(numOfApples, numOfOranges) {
+  console.log(numOfApples, numOfOranges);
+  const resultOfJuices = `Juice With ${numOfApples} Apples and ${numOfOranges} Oranges`;
+  return resultOfJuices;
 }
 
-//THis we will call as Invoking/calling/running
-printName();
-printName();
-printName();
+const finalResult = fruitProcessor(4, 3);
+console.log(finalResult);
+
+console.log(fruitProcessor(7, 1));
