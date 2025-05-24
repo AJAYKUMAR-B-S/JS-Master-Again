@@ -329,6 +329,7 @@ console.log(finalAmount + bill);
 //IN FUNCTION THERE ARE 'PARAMETERS" OR "ARGUMENTS" IT WILL TAKE THE INPUTS FROM FUNCTION AND PRINT IN CONSOLE OR RETURN
 // THE MAIN USE CASE OF FUNCTION IS WE SHOULD NOT REPEAT THE CODE OR BRAKE THE DRY PRINCIPLE (DON'T REPEAT YOURSELF)
 
+/*
 function fruitProcessor(numOfApples, numOfOranges) {
   console.log(numOfApples, numOfOranges);
   const resultOfJuices = `Juice With ${numOfApples} Apples and ${numOfOranges} Oranges`;
@@ -339,3 +340,25 @@ const finalResult = fruitProcessor(4, 3);
 console.log(finalResult);
 
 console.log(fruitProcessor(7, 1));
+
+*/
+
+// FUNCTION DECLARATION AND FUNCTION EXPRESSION
+
+function calcAge(birthYear) {
+  return 2025 - birthYear;
+}
+
+console.log(calcAge(2000));
+
+const voterEligible = function (userName, birthYear, hasAdharCard) {
+  const findAge = 2025 - birthYear;
+  return `${userName} ${
+    findAge > 18 && hasAdharCard === true
+      ? `Is Eligible For Voter ID `
+      : `Is Not Eligible For Voter ID Because He don't have AdharCard 
+Please First Generate Adhar Card `
+  } `;
+};
+const findUserWillGetID = voterEligible("Ajay", 2007, true);
+console.log(findUserWillGetID);
