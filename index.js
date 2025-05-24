@@ -1,5 +1,6 @@
 "use strict";
 
+/*
 let hasDriverLicense = false;
 const hasDriverHasGoodVision = true;
 
@@ -8,7 +9,9 @@ if (hasDriverHasGoodVision) {
 }
 
 console.log(`Driver ${hasDriverLicense ? "will" : "Won't"} get the license`);
+*/
 /*
+
 let js = "amazing";
 // if (js === "amazing") alert("js is fun");
 
@@ -312,3 +315,12 @@ const finalAmount = bill > 50 && bill < 300 ? bill / 15 : bill / 20;
 
 console.log(finalAmount + bill);
 */
+
+function printName() {
+  console.log("My name is Ajay");
+}
+
+//THis we will call as Invoking/calling/running
+printName();
+printName();
+printName();
