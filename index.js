@@ -365,4 +365,28 @@ const hotelGrand = (userName, amountForDiscount) => {
   }`;
 };
 
-console.log(hotelGrand("John", 150));
+// console.log(hotelGrand("John", 150));
+
+// Arrays
+//WHAT IS ARRAY : ARRAY IS A DATA STRUCTURE THAT CAN HOLD N NUMBER OF DIFFERENT TYPES OF DATA.
+//ARRAYS ARE STARTS WITH 0 INDEX
+const friendsName1 = "raju";
+const friendsName2 = "rani";
+const friendsName3 = "ravi";
+
+//INSTEAD OF WE CAN STORE DIFFERENT DATA IN ONE VARIABLE USING ARRAYS
+
+const differentFriendsNames = ["John", "Ram", "ravi"];
+
+console.log(differentFriendsNames);
+
+const numOfNumbers = new Array(40, 20, 45, 78);
+console.log(numOfNumbers);
+console.log(numOfNumbers[1]);
+console.log(numOfNumbers[0]);
+console.log(numOfNumbers[3]);
+console.log(numOfNumbers[9]);
+
+console.log(numOfNumbers[numOfNumbers.length - 1]);
+console.log(numOfNumbers.length);
+console.log(numOfNumbers.length - 1);
