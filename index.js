@@ -403,13 +403,30 @@ const calcAgeResultArray = [
   calcAges(ages[2]),
 ];
 
-console.log(calcAgeResultArray);
+// console.log(calcAgeResultArray);
 
-console.log(ages);
+// console.log(ages);
 ages[3] = "randome";
-console.log(ages);
+// console.log(ages);
 
 //WE LEARNT THAT IF WE DECLARE CONST WE CAN'T REASSIGN THE VALUE RIGHT BUT THE ABOVE CODE ARRAY IS TAKING HOW?
 //THE ANSWER IS IN JAVASCRIPT ONLY PRIMITIVE VALUES ARE IMMUTABLE(WE CAN' CHANGE THE VALUES) APART THAT DATA STRUCTURE LIKE ARRAY ARE MUTABLE WE CAN'T DO LIKE BELOW CODE
 
 // ages = [45, 42]; This will give an error
+
+// ARRAY METHODS
+//PUSH METHOD = IT WILL ADD THE VALUE TO THE END OF THE ARRAY
+
+ages.push("newAge");
+console.log(ages);
+
+//POP METHOD  = IT WILL REMOVE THE END OF THE VALUE OF ARRAY
+ages.pop();
+console.log(ages);
+
+//UNSHIFT = IT WILL ADD THE VALUE TO THE BEGINNING OF THE ARRAY
+
+ages.unshift("newOne");
+console.log(ages);
+
+// SHIFT  = IT WILL REMOVE FIRST VALUE OF ARRAY
