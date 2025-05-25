@@ -429,4 +429,24 @@ console.log(ages);
 ages.unshift("newOne");
 console.log(ages);
 
-// SHIFT  = IT WILL REMOVE FIRST VALUE OF ARRAY
+// SHIFT  = IT WILL REMOVE FIRST VALUE OF ARRAY IT ALSO RETURN REMOVED VALUE FROM ARRAY
+console.log(ages.shift());
+
+//PUSH METHODS WILL RETURN LENGTH OF NEW ARRAY
+console.log(ages.length);
+const newLengthOfArray = ages.push("TestingTest");
+console.log(newLengthOfArray);
+
+//POP METHOD WILL RETURN THE REMOVED VALUE FROM ARRAY
+console.log(ages.pop());
+
+//INDEXOF METHOD = IT WILL RETURN THE INDEX OF VALUE
+//SUPPOSE IF THE VALUE IS NOT EXISTS IN THE CURRENT ARRAY THEN THE INDEXOF WILL RETURN THE -1 VALUE
+console.log(ages.indexOf(19638));
+
+//INCLUDEs METHOD = IT WILL CHECK IF THE VALUE EXISTS IN CURRENT ARRAY OR NOT AND RETURN THE BOOLEAN VALUE
+console.log(ages);
+console.log(ages.includes("2000"));
+if (ages.includes("randome")) {
+  console.log("This array is containing the above value");
+}
