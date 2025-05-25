@@ -390,3 +390,26 @@ console.log(numOfNumbers[9]);
 console.log(numOfNumbers[numOfNumbers.length - 1]);
 console.log(numOfNumbers.length);
 console.log(numOfNumbers.length - 1);
+
+const differentValues = ["Ajay", 2003, true, ["Bangalore", "Birur", "Kadur"]];
+console.log(differentValues);
+
+const ages = [1991, 2003, 1963, 1999];
+const calcAges = (birthYear) => 2025 - birthYear;
+
+const calcAgeResultArray = [
+  calcAges(ages[0]),
+  calcAges(ages[ages.length - 1]),
+  calcAges(ages[2]),
+];
+
+console.log(calcAgeResultArray);
+
+console.log(ages);
+ages[3] = "randome";
+console.log(ages);
+
+//WE LEARNT THAT IF WE DECLARE CONST WE CAN'T REASSIGN THE VALUE RIGHT BUT THE ABOVE CODE ARRAY IS TAKING HOW?
+//THE ANSWER IS IN JAVASCRIPT ONLY PRIMITIVE VALUES ARE IMMUTABLE(WE CAN' CHANGE THE VALUES) APART THAT DATA STRUCTURE LIKE ARRAY ARE MUTABLE WE CAN'T DO LIKE BELOW CODE
+
+// ages = [45, 42]; This will give an error
