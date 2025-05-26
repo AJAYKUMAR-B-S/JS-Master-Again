@@ -1,5 +1,7 @@
 "use strict";
 
+// const { use } = require("react");
+
 let hasDriverLicense = false;
 const hasDriverHasGoodVision = true;
 
@@ -463,3 +465,22 @@ const personArray = {
 };
 
 console.log(personArray);
+
+// dot and bracket notation to access the values of objects
+
+console.log(personArray.firstName);
+console.log(personArray.lastName);
+
+const repeatWord = "Name";
+console.log(personArray["first" + repeatWord]);
+
+const userInput = prompt(
+  `What do you want to know this person. choose between this 
+   1)firstName 
+   2)LastName 
+   3)job 
+   4)birthYear 
+   5)friends`
+);
+
+console.log(personArray[userInput]);
