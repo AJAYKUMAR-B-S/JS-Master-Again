@@ -450,3 +450,16 @@ console.log(ages.includes("2000"));
 if (ages.includes("randome")) {
   console.log("This array is containing the above value");
 }
+
+// OBJECTS
+// WHAT IS OBJECTS : OBJECTS ARE DATA STRUCTURE SO WE CAN STORE THE DIFFERENT TYPE OF DATA IN KAY VALUE PAIR
+
+const personArray = {
+  firstName: "Ajay",
+  lastName: "kumar",
+  birthYear: 2025 - 1998,
+  job: "Coder",
+  friends: ["rani", "ravi", "raju"],
+};
+
+console.log(personArray);
