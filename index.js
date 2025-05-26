@@ -474,13 +474,22 @@ console.log(personArray.lastName);
 const repeatWord = "Name";
 console.log(personArray["first" + repeatWord]);
 
-const userInput = prompt(
-  `What do you want to know this person. choose between this 
-   1)firstName 
-   2)LastName 
-   3)job 
-   4)birthYear 
-   5)friends`
-);
+// const userInput = prompt(
+//   `What do you want to know this person. choose between this
+//    1)firstName
+//    2)LastName
+//    3)job
+//    4)birthYear
+//    5)friends`
+// );
 
-console.log(personArray[userInput]);
+// console.log(personArray[userInput]);
+
+personArray.location = "Bangalore";
+personArray["youtube"] = "@JS.com";
+
+console.log(personArray);
+
+console.log(
+  `${personArray.firstName} has ${personArray.friends.length} friends, and his best friend is called ${personArray.friends[0]}`
+);
