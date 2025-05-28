@@ -493,3 +493,19 @@ console.log(personArray);
 console.log(
   `${personArray.firstName} has ${personArray.friends.length} friends, and his best friend is called ${personArray.friends[0]}`
 );
+
+// this keyword : this is a keyword that will point to the current object
+
+const personArray1 = {
+  firstName: "Ajay",
+  lastName: "kumar",
+  birthYear: 2000,
+  job: "Coder",
+  friends: ["rani", "ravi", "raju"],
+  ageFinder: function (birthYear) {
+    console.log(this);
+    return 2025 - this.birthYear;
+  },
+};
+
+console.log(personArray1.ageFinder());
