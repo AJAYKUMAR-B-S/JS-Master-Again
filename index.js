@@ -501,11 +501,24 @@ const personArray1 = {
   lastName: "kumar",
   birthYear: 2000,
   job: "Coder",
+  hasDriverLicense: false,
   friends: ["rani", "ravi", "raju"],
+  // ageFinder: function (birthYear) {
+  //   console.log(this);
+  //   return 2025 - this.birthYear;
+  // }
   ageFinder: function (birthYear) {
-    console.log(this);
-    return 2025 - this.birthYear;
+    this.finalAge = 2025 - this.birthYear;
+    return this.finalAge;
+  },
+  finalSummary: function () {
+    return `${this.firstName} is a ${this.finalAge}-year old ${
+      this.job
+    }, and he has ${this.hasDriverLicense ? `a` : `No`} driver license`;
   },
 };
 
 console.log(personArray1.ageFinder());
+
+console.log(personArray1.finalAge);
+console.log(personArray1.finalSummary());
