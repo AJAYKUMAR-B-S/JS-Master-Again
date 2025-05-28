@@ -522,3 +522,20 @@ console.log(personArray1.ageFinder());
 
 console.log(personArray1.finalAge);
 console.log(personArray1.finalSummary());
+
+//for loop : It Will run until the condition is true
+
+// console.log("Lifting Weights 1 time");
+// console.log("Lifting Weights 2 time");
+// console.log("Lifting Weights 3 time");
+// console.log("Lifting Weights 4 time");
+// console.log("Lifting Weights 5 time");
+// console.log("Lifting Weights 6 time");
+// console.log("Lifting Weights 7 time");
+// console.log("Lifting Weights 8 time");
+// console.log("Lifting Weights 9 time");
+// console.log("Lifting Weights 10 time");
+
+for (let i = 0; i <= 10; i++) {
+  console.log(`Lifting Weights ${i} time`);
+}
