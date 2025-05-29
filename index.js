@@ -595,10 +595,22 @@ for (let i = userData.length - 1; i >= 0; i--) {
 
 //Using For Loop inside for loop
 
-for (let i = 1; i < 4; i++) {
-  console.log(`Starting the Exercise num ${i}
-    ----------------------------------------`);
-  for (let j = 1; j <= 5; j++) {
-    console.log(`lifting the Exercise num${i} ${j} Times`);
+// for (let i = 1; i < 4; i++) {
+//   console.log(`Starting the Exercise num ${i}
+//     ----------------------------------------`);
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(`lifting the Exercise num${i} ${j} Times`);
+//   }
+// }
+
+//While loop
+
+let randomeNum = Math.trunc(Math.random() * 6) + 1;
+
+while (randomeNum !== 6) {
+  console.log(`you rolled the dice ${randomeNum} time`);
+  randomeNum = Math.trunc(Math.random() * 6) + 1;
+  if (randomeNum === 6) {
+    console.log(`You rolled ${randomeNum}`);
   }
 }
