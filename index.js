@@ -2,6 +2,8 @@
 
 // const { use } = require("react");
 
+// const { use } = require("react");
+
 let hasDriverLicense = false;
 const hasDriverHasGoodVision = true;
 
@@ -429,28 +431,28 @@ console.log(ages);
 //UNSHIFT = IT WILL ADD THE VALUE TO THE BEGINNING OF THE ARRAY
 
 ages.unshift("newOne");
-console.log(ages);
+// console.log(ages);
 
 // SHIFT  = IT WILL REMOVE FIRST VALUE OF ARRAY IT ALSO RETURN REMOVED VALUE FROM ARRAY
-console.log(ages.shift());
+// console.log(ages.shift());
 
 //PUSH METHODS WILL RETURN LENGTH OF NEW ARRAY
-console.log(ages.length);
+// console.log(ages.length);
 const newLengthOfArray = ages.push("TestingTest");
-console.log(newLengthOfArray);
+// console.log(newLengthOfArray);
 
 //POP METHOD WILL RETURN THE REMOVED VALUE FROM ARRAY
-console.log(ages.pop());
-
+// console.log(ages.pop());
+//
 //INDEXOF METHOD = IT WILL RETURN THE INDEX OF VALUE
 //SUPPOSE IF THE VALUE IS NOT EXISTS IN THE CURRENT ARRAY THEN THE INDEXOF WILL RETURN THE -1 VALUE
-console.log(ages.indexOf(19638));
+// console.log(ages.indexOf(19638));
 
 //INCLUDEs METHOD = IT WILL CHECK IF THE VALUE EXISTS IN CURRENT ARRAY OR NOT AND RETURN THE BOOLEAN VALUE
-console.log(ages);
-console.log(ages.includes("2000"));
+// console.log(ages);
+// console.log(ages.includes("2000"));
 if (ages.includes("randome")) {
-  console.log("This array is containing the above value");
+  // console.log("This array is containing the above value");
 }
 
 // OBJECTS
@@ -464,15 +466,15 @@ const personArray = {
   friends: ["rani", "ravi", "raju"],
 };
 
-console.log(personArray);
+// console.log(personArray);
 
 // dot and bracket notation to access the values of objects
 
-console.log(personArray.firstName);
-console.log(personArray.lastName);
+// console.log(personArray.firstName);
+// console.log(personArray.lastName);
 
 const repeatWord = "Name";
-console.log(personArray["first" + repeatWord]);
+// console.log(personArray["first" + repeatWord]);
 
 // const userInput = prompt(
 //   `What do you want to know this person. choose between this
@@ -488,11 +490,11 @@ console.log(personArray["first" + repeatWord]);
 personArray.location = "Bangalore";
 personArray["youtube"] = "@JS.com";
 
-console.log(personArray);
+// console.log(personArray);
 
-console.log(
-  `${personArray.firstName} has ${personArray.friends.length} friends, and his best friend is called ${personArray.friends[0]}`
-);
+// console.log(
+//   `${personArray.firstName} has ${personArray.friends.length} friends, and his best friend is called ${personArray.friends[0]}`
+// );
 
 // this keyword : this is a keyword that will point to the current object
 
@@ -554,7 +556,33 @@ for (let i = 0; i < personArray2.length; i++) {
 const ageArray = [1990, 1980, 2000, 2004, 2003];
 
 const finalAgeArray = [];
-for (let i = 0; i < ageArray.length; i++) {
-  finalAgeArray.push(2025 - ageArray[i]);
+// for (let i = 0; i < ageArray.length; i++) {
+//   finalAgeArray.push(2025 - ageArray[i]);
+// }
+// console.log(finalAgeArray);
+
+//continue and break keywords
+
+for (let i = 0; i < personArray2.length; i++) {
+  if (typeof personArray2[i] !== "string") continue;
+  // console.log(typeof personArray2[i], personArray2[i]);
 }
-console.log(finalAgeArray);
+// console.log(finalAgeArray);
+
+const userData = [
+  "Raju",
+  2025 - 1993,
+  true,
+  "Bangalore",
+  ["Ravi", "Suma", "Guna", "john"],
+];
+
+const filterString = [];
+const filterOtherThanString = [];
+
+for (let i = 0; i < userData.length; i++) {
+  if (typeof userData[i] === "string") break;
+  console.log(userData[i], typeof userData[i]);
+}
+
+// console.log(filterOtherThanString);
