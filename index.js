@@ -518,10 +518,10 @@ const personArray1 = {
   },
 };
 
-console.log(personArray1.ageFinder());
+// console.log(personArray1.ageFinder());
 
-console.log(personArray1.finalAge);
-console.log(personArray1.finalSummary());
+// console.log(personArray1.finalAge);
+// console.log(personArray1.finalSummary());
 
 //for loop : It Will run until the condition is true
 
@@ -537,5 +537,24 @@ console.log(personArray1.finalSummary());
 // console.log("Lifting Weights 10 time");
 
 for (let i = 0; i <= 10; i++) {
-  console.log(`Lifting Weights ${i} time`);
+  // console.log(`Lifting Weights ${i} time`);
 }
+const personArray2 = [
+  "Ajay",
+  "kumar",
+  2025 - 1998,
+  "Coder",
+  ["rani", "ravi", "raju"],
+];
+
+for (let i = 0; i < personArray2.length; i++) {
+  // console.log(personArray2[i]);
+}
+
+const ageArray = [1990, 1980, 2000, 2004, 2003];
+
+const finalAgeArray = [];
+for (let i = 0; i < ageArray.length; i++) {
+  finalAgeArray.push(2025 - ageArray[i]);
+}
+console.log(finalAgeArray);
