@@ -586,3 +586,19 @@ for (let i = 0; i < userData.length; i++) {
 }
 
 // console.log(filterOtherThanString);
+
+//Printing The Array In Reverse
+
+for (let i = userData.length - 1; i >= 0; i--) {
+  console.log(userData[i]);
+}
+
+//Using For Loop inside for loop
+
+for (let i = 1; i < 4; i++) {
+  console.log(`Starting the Exercise num ${i}
+    ----------------------------------------`);
+  for (let j = 1; j <= 5; j++) {
+    console.log(`lifting the Exercise num${i} ${j} Times`);
+  }
+}
