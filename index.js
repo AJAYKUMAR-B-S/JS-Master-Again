@@ -612,5 +612,6 @@ while (randomeNum !== 6) {
   randomeNum = Math.trunc(Math.random() * 6) + 1;
   if (randomeNum === 6) {
     console.log(`You rolled ${randomeNum}`);
+     console.log(`You rolled ${randomeNum}`);
   }
 }
