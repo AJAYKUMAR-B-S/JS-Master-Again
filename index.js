@@ -605,12 +605,42 @@ for (let i = userData.length - 1; i >= 0; i--) {
 
 //While loop
 
-let randomeNum = Math.trunc(Math.random() * 6) + 1;
+// let randomeNum = Math.trunc(Math.random() * 6) + 1;
 
-while (randomeNum !== 6) {
-  console.log(`you rolled the dice ${randomeNum} time`);
-  randomeNum = Math.trunc(Math.random() * 6) + 1;
-  if (randomeNum === 6) {
-    console.log(`You rolled ${randomeNum}`);
-  }
+// while (randomeNum !== 6) {
+//   console.log(`you rolled the dice ${randomeNum} time`);
+//   randomeNum = Math.trunc(Math.random() * 6) + 1;
+//   if (randomeNum === 6) {
+//     console.log(`You rolled ${randomeNum}`);
+//   }
+// }
+
+console.log(23 - "45" + true + "java");
+
+console.log(5 == "5"); // true (string "5" is converted to number 5)
+console.log(false == 0); // true (false becomes 0)
+console.log(null == undefined); // true (special case)
+
+const value = 20;
+
+const newAge = 14;
+
+if (newAge >= 18) {
+  console.log(`Congrats your Eligible for voting`);
+} else if (newAge < 15) {
+  console.log(
+    `you are less than 15 please make sure you have an adharcard for voterId`
+  );
+} else {
+  console.log(`Sorry :( you have to wait ${18 - newAge} years to vote`);
 }
+
+const newTernAge = 14;
+const eligibleForVoteOrNot =
+  newTernAge >= 18
+    ? `Congrats your Eligible for voting`
+    : newTernAge < 15
+    ? `you are less than 15 please make sure you have an adharcard for voterId`
+    : `Sorry :( you have to wait ${18 - newAge} years to vote`;
+
+console.log(eligibleForVoteOrNot);
