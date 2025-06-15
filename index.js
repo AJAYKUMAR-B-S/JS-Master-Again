@@ -626,13 +626,13 @@ const value = 20;
 const newAge = 14;
 
 if (newAge >= 18) {
-  console.log(`Congrats your Eligible for voting`);
+  // console.log(`Congrats your Eligible for voting`);
 } else if (newAge < 15) {
-  console.log(
-    `you are less than 15 please make sure you have an adharcard for voterId`
-  );
+  // console.log(
+  // `you are less than 15 please make sure you have an adharcard for voterId`
+  // );
 } else {
-  console.log(`Sorry :( you have to wait ${18 - newAge} years to vote`);
+  // console.log(`Sorry :( you have to wait ${18 - newAge} years to vote`);
 }
 
 const newTernAge = 14;
@@ -643,4 +643,4 @@ const eligibleForVoteOrNot =
     ? `you are less than 15 please make sure you have an adharcard for voterId`
     : `Sorry :( you have to wait ${18 - newAge} years to vote`;
 
-console.log(eligibleForVoteOrNot);
+// console.log(eligibleForVoteOrNot);
